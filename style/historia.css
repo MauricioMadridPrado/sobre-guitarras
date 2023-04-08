@@ -8,6 +8,7 @@
   gap: 1em;
 }
 .historia__questao {
+  color: var(--cor-titulos);
   grid-column: 1/2;
   max-height: 50px;
   display: flex;

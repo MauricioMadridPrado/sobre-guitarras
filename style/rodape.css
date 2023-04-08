@@ -1,0 +1,15 @@
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4em ;
+
+}
+.rodape__texto{
+    font-size: var(--font-2 );
+    font-family: var(--font-marcacao);
+}
+.rodape__texto a{
+    text-decoration: none;
+    color: var(--font-cor-marcacao);
+}

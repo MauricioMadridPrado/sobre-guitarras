@@ -2,7 +2,7 @@
 
 }
 .cabecalho__navegacao {
-    
+
 }
 .navegacao__lista__links {
     list-style: none;
@@ -10,10 +10,16 @@
     justify-content: space-around;
     background: var(--cor-marcacao);
     padding: 1em 0;
+    position: fixed;
+    width: 70%;
+    align-items: center;
+    margin-left: 15%;
+    box-shadow: 0 0 0.5em black;
 }
 .lista__link a {
-    font-size: var(--font-2);
+
+    font-size: var(--font-1);
     text-decoration: none;
-    color:var(--cor-letra-principal);
+    color: var(--cor-titulos);
     font-family: var(--font-marcacao);
 }

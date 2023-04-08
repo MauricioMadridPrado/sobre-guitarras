@@ -2,6 +2,7 @@
 @import url("./principal.css");
 @import url("./historia.css");
 @import url("./guitarristas.css");
+@import url("./rodape.css");
 @import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Inconsolata:wght@400;700&display=swap");
 :root {
   --font-1: 2rem;
