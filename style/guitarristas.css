@@ -32,6 +32,10 @@
   padding: 0;
   margin: 0;
 }
+.guitarristas__imagem:hover {
+  cursor: pointer;
+}
+
 .guitarristas__conteudo__textos {
 
   grid-column: 2/3;
