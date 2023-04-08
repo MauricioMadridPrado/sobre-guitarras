@@ -2,24 +2,39 @@
 
 }
 .cabecalho__navegacao {
-
+    
 }
 .navegacao__lista__links {
     list-style: none;
     display: flex;
+    flex-direction: column;
+    gap: 10px;
     justify-content: space-around;
     background: var(--cor-marcacao);
     padding: 1em 0;
     position: fixed;
-    width: 70%;
+    width: fit-content;
     align-items: center;
     margin-left: 15%;
     box-shadow: 0 0 0.5em black;
 }
+.navegacao__lista__links:hover{
+    box-shadow: 0 0 1em black;
+}
 .lista__link a {
-
+    display: none;
     font-size: var(--font-1);
     text-decoration: none;
     color: var(--cor-titulos);
     font-family: var(--font-marcacao);
+}
+.navegacao__checkbox{
+    width: 35px;
+    height: 36px;
+}
+.ativa_nav a {
+    display: block;
+}
+.ativa_container_nav{
+    width: 700px;
 }

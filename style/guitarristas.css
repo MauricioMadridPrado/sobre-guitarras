@@ -54,9 +54,24 @@
   display: flex;
   flex-direction: column;
   gap: 1em;
+  animation: texto 1s forwards;
 }
 .ativo_guitarra{
   display: flex;
   flex-direction: column;
   gap: 1em;
+  animation: texto 1s forwards;
+}
+
+
+@keyframes texto {
+  from{
+      opacity: 0;
+
+      
+  }
+  to{
+      opacity: 1;
+
+  }
 }
