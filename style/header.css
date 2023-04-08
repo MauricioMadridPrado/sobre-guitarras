@@ -1,0 +1,19 @@
+.cabecalho {
+
+}
+.cabecalho__navegacao {
+    
+}
+.navegacao__lista__links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background: var(--cor-marcacao);
+    padding: 1em 0;
+}
+.lista__link a {
+    font-size: var(--font-2);
+    text-decoration: none;
+    color:var(--cor-letra-principal);
+    font-family: var(--font-marcacao);
+}

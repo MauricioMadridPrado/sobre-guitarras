@@ -1,0 +1,28 @@
+.container__guitarristas {
+  display: grid;
+  grid-template-columns: 310px 700px;
+}
+
+.titulo__container__guitarristas {
+    grid-column: 1/3;
+}
+.titulo__guitarristas {
+    text-align: center;
+}
+
+.guitarristas__conteudo {
+}
+.guitarristas__imagens__lista {
+  height: 400px;
+  overflow: scroll;
+}
+.guitarristas__imagem__container {
+}
+.guitarristas__imagem {
+  grid-column: 1/2;
+  height: 360px;
+  width: 250px;
+}
+.guitarristas__conteudo__textos{
+    grid-column: 2/3;
+}

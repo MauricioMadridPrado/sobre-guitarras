@@ -1,0 +1,34 @@
+.historia__conteudo {
+  grid-column: 1/5;
+  padding: 0 3em;
+}
+.historia-lista {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1em;
+}
+.historia__questao {
+  grid-column: 1/2;
+  max-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-marcacao);
+  letter-spacing: 3px;
+  font-size: var(--font-2);
+  text-align: center;
+  box-shadow: 0 0.2em 0.3em var(--cor-marcacao);
+  border-radius: 1em;
+  cursor: pointer;
+  padding: 1em 0;
+  margin: 1em 0;
+}
+.historia__resposta {
+  grid-column: 2/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--font-3);
+  line-height: 1.5;
+  padding: 1em;
+}

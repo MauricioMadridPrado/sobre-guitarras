@@ -1,0 +1,14 @@
+.principal{
+    grid-column: 2/5;
+}
+.container__historia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo__container {
+    font-size: var(--font-1);
+    margin: 1em 0;
+  }
+  .titulo {
+  }

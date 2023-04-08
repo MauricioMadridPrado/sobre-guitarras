@@ -1,0 +1,36 @@
+@import url("./header.css");
+@import url("./principal.css");
+@import url("./historia.css");
+@import url("./guitarristas.css");
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Inconsolata:wght@400;700&display=swap");
+:root {
+  --font-1: 2rem;
+  --font-2: 1.5rem;
+  --font-3: 1.25rem;
+  --font-4: 1rem;
+  --cor-fundo: #e3ccae;
+  --cor-marcacao: #b8621b;
+  --cor-titulos: #262a56;
+  --cor-letra-principal: #000000;
+  --font-principal: "Inconsolata", monospace;
+  --font-marcacao: "Delicious Handrawn", cursive;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+a,
+li,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  background: var(--cor-fundo);
+  color: var(--cor-letra-principal);
+  font-family: var(--font-principal);
+}
