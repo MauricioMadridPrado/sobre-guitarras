@@ -1,13 +1,14 @@
 .container__guitarristas {
   display: grid;
   grid-template-columns: 310px 700px;
+  gap: 20px;
 }
 
 .titulo__container__guitarristas {
-    grid-column: 1/3;
+  grid-column: 1/3;
 }
 .titulo__guitarristas {
-    text-align: center;
+  text-align: center;
 }
 
 .guitarristas__conteudo {
@@ -23,6 +24,20 @@
   height: 360px;
   width: 250px;
 }
-.guitarristas__conteudo__textos{
-    grid-column: 2/3;
+.guitarristas__conteudo__textos {
+  grid-column: 2/3;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.guitarristas__conteudo__descricao {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.guitarristas__conteudo__nome {
+    font-size: var(--font-2);
+}
+.guitarristas__conteudo__texto {
+    font-size: var(--font-3);
 }
