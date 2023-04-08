@@ -33,15 +33,15 @@
   margin: 0;
 }
 .guitarristas__conteudo__textos {
+
   grid-column: 2/3;
   text-align: center;
   margin-top: 60px;
 }
 
 .guitarristas__conteudo__descricao {
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
+    display: none;
+
 }
 .guitarristas__conteudo__nome {
   color: var(--cor-titulos);
@@ -49,4 +49,14 @@
 }
 .guitarristas__conteudo__texto {
     font-size: var(--font-3);
+}
+.ativo_guitarrista {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.ativo_guitarra{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 }
